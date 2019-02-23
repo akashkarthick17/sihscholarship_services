@@ -31,7 +31,7 @@ app.use(function (req, res, next) {
     next();
 });
 // Routes HTTP GET requests to the specified path "/" with the specified callback function 
-// app.get('/', (request, response) => { response.send('Hello, World! by Akash Karthick'); });
+app.get('/', (request, response) => { response.send('Hello, World! by Akash Karthick'); });
 // Make the app listen on port 3000 
 
 useExpressServer(app, {
